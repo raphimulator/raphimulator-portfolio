@@ -1,0 +1,46 @@
+html{
+    font-family: verdana, arial, sans-serif
+}
+body{
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px none #555577;
+    border-radius: 10px;
+    width: 700px;
+    min-height: 500px;
+    color: #222255;
+    box-shadow: 3px 3px 3px #888888;
+}
+
+
+header{
+    background-color:#00aaff;
+    color: #fefefe;
+    margin-bottom: 100px;
+    overflow:auto;
+}
+
+header h1{
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+}
+
+header ul{
+    float: right;
+    list-style-type: none;
+}
+header li{
+    display: inline;
+    padding: 0 20px;
+    font-size: 20px;
+}
+header a{
+    text-decoration: none;
+}
+header a:visited{
+    color: #fefefe;
+}
+header a:hover{
+    color: #aaaafe;
+}
