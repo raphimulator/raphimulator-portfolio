@@ -3,44 +3,57 @@ html{
 }
 body{
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 0;
     border: 2px none #555577;
-    border-radius: 10px;
-    width: 700px;
+    border-radius:  10px;
     min-height: 500px;
     color: #222255;
-    box-shadow: 3px 3px 3px #888888;
 }
-
 
 header{
-    background-color:#00aaff;
-    color: #fefefe;
-    margin-bottom: 100px;
-    overflow:auto;
+    height: 100px;
+  background: #3A5CC5; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#3A5CC5, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#3A5CC5, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#3A5CC5, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#85C3C3, #9BE3E3); /* Standard syntax */
+  
 }
 
-header h1{
-    float: left;
-    padding: 10px;
-    font-size: 25px;
+.navbar, contents{
+    width: 800px;
+    margin: 0 auto;
+}
+contents{
+    display: block;
 }
 
-header ul{
-    float: right;
+.navbar {
+    color: #222233;
     list-style-type: none;
+    padding: 0;
+    padding-top: 30px;
+    top: -1px;
+    overflow: hidden;
+    text-shadow: 3px 3px 2px rgba(20, 20, 20, 0.25);
+    
 }
-header li{
-    display: inline;
-    padding: 0 20px;
-    font-size: 20px;
+.navbar h1{
+    float: left;
+    vertical-align: top;
+    margin: 0;
+    font-size: 35px;
 }
-header a{
+.navbar a{
+    float: right;  
     text-decoration: none;
+    padding: 10px 40px;
+    margin-left: 10px;
+    text-align: center;
 }
-header a:visited{
-    color: #fefefe;
+.navbar a:visited{
+    color: #222233;
 }
-header a:hover{
-    color: #aaaafe;
+.navbar a:hover{
+    color: #777799;
 }
