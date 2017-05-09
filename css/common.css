@@ -1,3 +1,4 @@
+/* ------ Default ------ */
 html{
     font-family: verdana, arial, sans-serif
 }
@@ -8,16 +9,13 @@ body{
     border-radius:  10px;
     min-height: 500px;
     color: #222255;
+    background-color:  #eeeeff;;
 }
 
 header{
     height: 100px;
-  background: #3A5CC5; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#3A5CC5, white); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#3A5CC5, white); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#3A5CC5, white); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#85C3C3, #9BE3E3); /* Standard syntax */
-  
+    background-color: #ddddee;
+    border-bottom: 1px solid #222233;
 }
 
 .navbar, contents{
@@ -56,4 +54,50 @@ contents{
 }
 .navbar a:hover{
     color: #777799;
+}
+/* ------ About ------ */
+
+.about-page{
+    margin-top: 50px;
+}
+.profile-pic{
+    float: left;
+    width: 300px;
+}
+.profile-pic h2, .profile-pic p{
+    text-align: center;
+    margin: 5px auto;
+}
+
+.profile-pic img{
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 2px rgba(20, 20, 20, 0.25);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* ------ Contact ------ */
+.contact-link {
+    background-color: #ddddee;
+    width: 300px;
+    float: left;
+    border-radius: 10px;
+}
+a.contact-link {
+    text-decoration: none;
+    color: #222233;
+}
+a:visited.contact-link {
+    color: #222233;
+}
+a:hover.contact-link {
+    background-color: #aaaabb;
+}
+
+.twitter-item img{
+    vertical-align: middle;
+    height: 50px;
+    margin: 20px;
 }
