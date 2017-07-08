@@ -10,7 +10,7 @@ body{
     min-height: 500px;
     color: #222255;
     background-color:  white;
-    background-image: url('/assets/cvark_blur.png');
+    background-image: url(/assets/cvark_blur.png);
     background-size: 100% auto;
 }
 
@@ -24,23 +24,23 @@ body{
 
 .title-text
 {
-    background-image: url('/assets/header.png');
+    background-image: url(/assets/header.png);
     padding-top: 15%;
     margin-bottom: 10%;
 }
 .about-text
 {
-    background-image: url('/assets/about.png');
+    background-image: url(/assets/about.png);
 }
 
 .projects-text
 {
-    background-image: url('/assets/projects.png');
+    background-image: url(/assets/projects.png);
 }
 
 .contact-text
 {
-    background-image: url('/assets/contact.png');
+    background-image: url(/assets/contact.png);
 }
 
 .contact-text, .projects-text, .about-text, .title-text
