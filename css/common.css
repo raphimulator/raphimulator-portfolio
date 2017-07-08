@@ -9,73 +9,55 @@ body{
     border-radius:  10px;
     min-height: 500px;
     color: #222255;
-    background-color:  #eeeeff;;
+    background-color:  white;
+    background-image: url('/assets/cvark_blur.png');
+    background-size: 100% auto;
 }
 
-header{
-    height: 100px;
-    background-color: #ddddee;
-    border-bottom: 1px solid #222233;
+.header-wrapper
+{
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    margin-left: 10%;
 }
 
-.navbar, contents{
-    width: 800px;
-    margin: 0 auto;
+.title-text
+{
+    background-image: url('/assets/header.png');
+    padding-top: 15%;
+    margin-bottom: 10%;
 }
-contents{
+.about-text
+{
+    background-image: url('/assets/about.png');
+}
+
+.projects-text
+{
+    background-image: url('/assets/projects.png');
+}
+
+.contact-text
+{
+    background-image: url('/assets/contact.png');
+}
+
+.contact-text, .projects-text, .about-text, .title-text
+{
+    color: rgba(250, 20, 20, 0.0);
     display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(20,20,20,0.5));
+    filter: drop-shadow(2px 2px 1px rgba(20,20,20,0.5));
 }
 
-.navbar {
-    color: #222233;
-    list-style-type: none;
-    padding: 0;
-    padding-top: 30px;
-    top: -1px;
-    overflow: hidden;
-    text-shadow: 3px 3px 2px rgba(20, 20, 20, 0.25);
-    
-}
-.navbar h1{
-    float: left;
-    vertical-align: top;
-    margin: 0;
-    font-size: 35px;
-}
-.navbar a{
-    float: right;  
-    text-decoration: none;
-    padding: 10px 40px;
-    margin-left: 10px;
-    text-align: center;
-}
-.navbar a:visited{
-    color: #222233;
-}
-.navbar a:hover{
-    color: #777799;
-}
-/* ------ About ------ */
-
-.about-page{
-    margin-top: 50px;
-}
-.profile-pic{
-    float: left;
-    width: 300px;
-}
-.profile-pic h2, .profile-pic p{
-    text-align: center;
-    margin: 5px auto;
-}
-
-.profile-pic img{
-    height: 200px;
-    border-radius: 100px;
-    box-shadow: 3px 3px 2px rgba(20, 20, 20, 0.25);
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
+.contact-text, .projects-text, .about-text
+{
+    padding-top: 3%;
+    margin-top: 4%;
+    margin-left: 5%;   
 }
 
 /* ------ Contact ------ */
