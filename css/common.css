@@ -6,7 +6,6 @@ body{
     margin: 0 auto;
     margin-top: 0;
     border: 2px none #555577;
-    border-radius:  10px;
     min-height: 500px;
     color: #222255;
     background-color:  white;
@@ -14,36 +13,42 @@ body{
     background-size: 100% auto;
 }
 
+.body-wrapper
+{
+    margin: 0 auto;
+    width:70%;
+}
+
+/* ------ Header ------ */
 .header-wrapper
 {
     position: fixed;
     width: 50%;
     height: 100%;
-    margin-left: 10%;
 }
 
-.title-text
+.title-image
 {
     background-image: url(/assets/header.png);
     padding-top: 15%;
     margin-bottom: 10%;
 }
-.about-text
+.about-button
 {
     background-image: url(/assets/about.png);
 }
 
-.projects-text
+.projects-button
 {
     background-image: url(/assets/projects.png);
 }
 
-.contact-text
+.contact-button
 {
     background-image: url(/assets/contact.png);
 }
 
-.contact-text, .projects-text, .about-text, .title-text
+.contact-button, .projects-button, .about-button, .title-image
 {
     color: rgba(250, 20, 20, 0.0);
     display: block;
@@ -53,24 +58,33 @@ body{
     filter: drop-shadow(2px 2px 1px rgba(20,20,20,0.5));
 }
 
-.contact-text, .projects-text, .about-text
+.contact-button, .projects-button, .about-button
 {
     padding-top: 3%;
     margin-top: 4%;
     margin-left: 5%;   
 }
 
-/* ------ Contact ------ */
-.contact-link {
-    background-color: #ddddee;
-    width: 300px;
-    float: left;
-    border-radius: 10px;
+
+/* ------ Content ------ */
+.content-wrapper
+{
+    width: 60%;
+    float: right;
+    background-color: rgba(220, 220, 220,0.25);
+    margin-top: 20px;
+    padding: 0 5%;
 }
-a.contact-link {
-    text-decoration: none;
-    color: #222233;
+
+p, h1, h2, h3
+{
+    color: #220011;
+    text-shadow: 1px 1px 1px rgba(20,20,20,0.5);
 }
+
+
+/* ------ TWitter ------ */
+
 a:visited.contact-link {
     color: #222233;
 }
